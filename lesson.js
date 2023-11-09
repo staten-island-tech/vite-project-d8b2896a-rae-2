@@ -18,5 +18,6 @@ function linearSearch(num, arr){
         console.log(found);
         return found;
 }
-linearSearch(3, numsArr); */
+linearSearch(3, numsArr); 
 
+ */
