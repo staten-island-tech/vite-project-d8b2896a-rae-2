@@ -1,6 +1,6 @@
 :root{
     --darkgreen: #30583a;
-    --mintgreen: #5c974f;
+    --mintgreen: #9cbd94;
     --primary: var(--mintgreen);
 }
 body{
@@ -24,6 +24,7 @@ body,
 .title{
     text-align: center;
     font-size: 4.2rem;
+    margin: 22px;
     font-family: 'Manrope', sans-serif;
 }
 #uwu{
@@ -36,6 +37,7 @@ body,
     text-align: center;
     font-size: 1.8rem;
     font-family: 'Manrope', sans-serif;
+    background-color: rgb(59, 107, 91);
 }
 
 .dogs{
@@ -43,6 +45,7 @@ body,
     text-align: center;
     font-size: 1.8rem;
     font-family: 'Manrope', sans-serif;
+    background-color: rgb(59, 107, 91);
 }
 
 .cats{
@@ -50,6 +53,7 @@ body,
     text-align: center;
     font-size: 1.8rem;
     font-family: 'Manrope', sans-serif;
+    background-color: rgb(59, 107, 91);
 }
 
 .birds{
@@ -57,6 +61,7 @@ body,
     text-align: center;
     font-size: 1.8rem;
     font-family: 'Manrope', sans-serif;
+    background-color: rgb(59, 107, 91);
 }
 
 .parentcard {
