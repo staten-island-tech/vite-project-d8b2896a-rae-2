@@ -6,11 +6,26 @@
 body{
     background-color: var(--primary);
 }
+#themes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .light{
     --primary: var(--mintgreen);
+    background-color: #47b682;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 2rem;
+    margin: 4px;
 }
 .dark{
     --primary: var(--darkgreen);
+    background-color: #30583a;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 2rem;
+    margin: 4px;
 }
 
 html,
@@ -95,7 +110,6 @@ body,
 }
 .title {
     font-size: 2.0rem;
-
     transition: all .5s;
     font-family: 'Manrope', sans-serif;
 
