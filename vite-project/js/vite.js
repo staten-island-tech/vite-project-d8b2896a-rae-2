@@ -1,5 +1,5 @@
 import "../css/style.css"
-import{dawgs} from "./store";
+import{allpets} from "./store";
 
 const DOMSelectors = {
     allpets: document.querySelector(".allpets"),
@@ -10,4 +10,5 @@ const DOMSelectors = {
 
 //then what? idk.... just think lol
 //maybe add an event listern???? is that a good optiuon?
-console.log(dawgs[0] + " is an ugly dog");
+
+console.log(allpets[0] + " is an ugly dog");

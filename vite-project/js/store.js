@@ -73,7 +73,7 @@ const meow = [
             personality: "Extroverted",
         },
 ];
-const chirpers = [
+const chirp = [
     {
         name: "PlayStation 2",
         breed: "parrot",

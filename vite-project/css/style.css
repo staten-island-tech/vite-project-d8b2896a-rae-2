@@ -16,16 +16,16 @@ body{
     background-color: #47b682;
     text-align: center;
     font-family: 'Manrope', sans-serif;
-    font-size: 2rem;
-    margin: 4px;
+    font-size: 1.3rem;
+    margin: 10px;
 }
 .dark{
     --primary: var(--darkgreen);
     background-color: #30583a;
     text-align: center;
     font-family: 'Manrope', sans-serif;
-    font-size: 2rem;
-    margin: 4px;
+    font-size: 1.3rem;
+    margin: 10px;
 }
 
 html,
