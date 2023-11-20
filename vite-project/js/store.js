@@ -12,6 +12,7 @@ const dawgs = [
         age: "1",
         price: "$2000", 
         personality: "Aloof",
+        petimage: <img src="https://www.petmiconnect.com/wp-content/uploads/2018/08/ah.jpg" class="afghanhound"></img>,
     },
     {
         name: "DIPSY",
@@ -19,6 +20,7 @@ const dawgs = [
         age: "2",
         price: "1800", 
         personality: "Playful",
+        petimage: <img src="https://wagsandwiggles.com/wp-content/uploads/2023/03/Sandy-1-scaled.jpg" class="akk"></img>,
     },
     {
         name: "PO",

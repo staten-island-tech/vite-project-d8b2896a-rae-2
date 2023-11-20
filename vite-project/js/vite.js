@@ -3,9 +3,9 @@ import{allpets} from "./store";
 
 const DOMSelectors = {
     allpets: document.querySelector(".allpets"),
-    dogs: document.querySelector(".dogs"),
-    cats: document.querySelector(".cats"),
-    birds: document.querySelector(".birds"),
+    dawgs: document.querySelector(".dawgs"),
+    meow: document.querySelector(".meow"),
+    chirp: document.querySelector(".chirp"),
 };
 
 //then what? idk.... just think lol
