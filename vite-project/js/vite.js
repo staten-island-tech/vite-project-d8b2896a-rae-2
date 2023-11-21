@@ -8,7 +8,14 @@ const DOMSelectors = {
     chirp: document.querySelector(".chirp"),
 };
 
-//then what? idk.... just think lol
-//maybe add an event listern???? is that a good optiuon?
+document.querySelector(".themes").addEventListener("click", function(){
+    if (document.body.classList.contains("light")){
+        document.body.classList.add("dark")
+        document.body.remove("light")
+    } else{
+        document.body.classList.add("light")
+        document.body.classList.remove("dark")
+    }
+})
 
-console.log(allpets[0] + " is an ugly dog");
+console.log(allpets);
