@@ -8,3 +8,6 @@
   }
 })
  */
+
+//make an event to sow all cards whenever user refeshes page
+//then make another event to show just a couple cards when a button is clicked

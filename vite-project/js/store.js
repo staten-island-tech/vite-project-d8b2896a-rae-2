@@ -4,7 +4,7 @@ const dawgs = [
         breed: "loser",
         age: "16",
         price: "worthless", 
-        personality: "Acoustic",
+        personality: "Acoustic and restarted",
     },
     {
         name: "LAALAA",
@@ -124,5 +124,5 @@ const chirp = [
         petimage: <img src="https://blog.nature.org/wp-content/uploads/2014/02/eurasian-collared-dove.jpg" class="bbdove"></img>
     }, 
 ];
-const allpets = dawgs.concat(meow, chirp);
-export {dawgs, meow, chirp, allpets};
+const everything = dawgs.concat(meow, chirp);
+export {dawgs, meow, chirp, everything};
