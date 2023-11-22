@@ -13,7 +13,7 @@ body{
 }
 .light{
     --primary: var(--mintgreen);
-    background-color: #47b682;
+    --background-color: var(--mintgreen);
     text-align: center;
     font-family: 'Manrope', sans-serif;
     font-size: 1.3rem;
@@ -21,7 +21,7 @@ body{
 }
 .dark{
     --primary: var(--darkgreen);
-    background-color: #30583a;
+    --background-color: var(--darkgreen);
     text-align: center;
     font-family: 'Manrope', sans-serif;
     font-size: 1.3rem;
@@ -41,7 +41,7 @@ body,
     font-size: 4.2rem;
     font-family: 'Manrope', sans-serif;
 }
-#uwu{
+#button-holder{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -86,8 +86,8 @@ body,
     justify-content: space-around;
     margin-bottom: 1.5rem;
     padding: 3px;
-    background-color: rgb(163, 211, 149);
-    box-shadow: 10px 10px 5px rgb(116, 116, 80);
+    background-color: #a3d395;
+    box-shadow: 10px 10px 5px #747450;
  
 }
 @media screen and (max-width: 1180px){
@@ -115,9 +115,9 @@ body,
 
 }
 .card-price{
-    background-color: rgb(163, 211, 149); 
+    background-color: #a3d395; 
     font-size: 1.7rem;
-    margin-bottom: 30px rgb(163, 211, 149);
+    margin-bottom: 30px #a3d395;
     text-align: center;
     transition: all .5s;
     font-family: 'Manrope', sans-serif;
