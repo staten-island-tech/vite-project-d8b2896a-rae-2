@@ -125,4 +125,4 @@ const chirp = [
     }, 
 ];
 const everything = dawgs.concat(meow, chirp);
-export {dawgs, meow, chirp, everything};
+export {everything};
