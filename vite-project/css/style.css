@@ -1,7 +1,7 @@
 :root{
     --darkgreen: #30583a;
     --mintgreen: #47b682;
-    --primary: var(--mintgreen);
+    --primary: var(--darkgreen);
 }
 body{
     background-color: var(--primary);
@@ -12,16 +12,14 @@ body{
   justify-content: space-around;
 }
 .light{
-    --primary: var(--mintgreen);
-    --background-color: var(--mintgreen);
+    background-color: var(--mintgreen);
     text-align: center;
     font-family: 'Manrope', sans-serif;
     font-size: 1.3rem;
     margin: 10px;
 }
 .dark{
-    --primary: var(--darkgreen);
-    --background-color: var(--darkgreen);
+    background-color: var(--darkgreen);
     text-align: center;
     font-family: 'Manrope', sans-serif;
     font-size: 1.3rem;
