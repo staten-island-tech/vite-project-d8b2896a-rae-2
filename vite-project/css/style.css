@@ -39,7 +39,7 @@ body,
     font-size: 4.2rem;
     font-family: 'Manrope', sans-serif;
 }
-#button-holder{
+#btn{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -52,7 +52,7 @@ body,
     background-color: #5c974f;
 }
 
-.dogs{
+.dawg{
     flex-direction: row;
     text-align: center;
     font-size: 1.8rem;
@@ -60,7 +60,7 @@ body,
     background-color: #5c974f;
 }
 
-.cats{
+.meow{
     flex-direction: row;
     text-align: center;
     font-size: 1.8rem;
@@ -68,7 +68,7 @@ body,
     background-color: #5c974f;
 }
 
-.birds{
+.chirp{
     flex-direction: row;
     text-align: center;
     font-size: 1.8rem;
