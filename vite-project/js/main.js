@@ -31,7 +31,7 @@ function btn(){
     //create new array by filtering items by category (the button clicked)
     let newArr = everything.filter((el)=>el.type.includes(category))
     //remove all old cards
-    DOMselectors.parent.innerHTML = ""
+    DOMselectors.everything.innerHTML = ""
     //passing in new filtered array to put cards on screen
     populate(newArr)
   }))
@@ -39,7 +39,3 @@ function btn(){
 populate(everything)
 btn()
 theme()
-
-//make an event to sow all cards whenever user refeshes page
-//then make another event to show just a couple cards when a button is clicked
-

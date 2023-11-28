@@ -5,6 +5,7 @@ const DOMSelectors = {
     dawg: document.querySelector(".dawg"),
     meow: document.querySelector(".meow"),
     chirp: document.querySelector(".chirp"),
+    button: document.querySelector("#btn"), //?? shoud this be here??????
 };
 
 export {DOMSelectors};
