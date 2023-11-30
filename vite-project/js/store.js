@@ -3,7 +3,7 @@ const everything = [
         name: "shao wee wee", 
         breed: "loser",
         price: "worthless", 
-        personality: "Acoustic and restarted",
+        personality: "slow",
         type: ['special'],
     },
     {
