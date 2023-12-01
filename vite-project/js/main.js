@@ -1,4 +1,4 @@
-import "./style.css";
+import "../style.css";
 import{everything} from "./store";
 import { DOMselectors } from "./dom";
 
@@ -13,7 +13,12 @@ DOMselectors.document.querySelector(".themes").addEventListener("click", functio
   }
 })
 }
-function populate(arr){
+
+function createCards(arr){
+
+}
+
+/* function populate(arr){
   arr.forEach((el)=> DOMselectors.parent.insertAdjacentHTML(
     "beforeend",
     `<div class='everything'>
@@ -38,4 +43,4 @@ function btn(){
 }
 populate(everything)
 btn()
-theme()
+theme() */
