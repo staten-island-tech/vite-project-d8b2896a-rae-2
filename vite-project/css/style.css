@@ -1,31 +1,45 @@
 :root{
     --darkgreen: #30583a;
     --mintgreen: #47b682;
+    --diffgreen: #16750a;
+    --lightgray: #b4b4b4;
     --primary: var(--darkgreen);
+    --secondary: var(--diffgreen);
 }
 body{
     background-color: var(--primary);
 }
-.themes{
+#themes{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 .light{
-    background-color: var(--mintgreen);
+    --primary: var(--mintgreen);
+    --secondary: var(--diffgreen);
     text-align: center;
     font-family: 'Manrope', sans-serif;
     font-size: 1.3rem;
     margin: 10px;
 }
 .dark{
-    background-color: var(--darkgreen);
+    --primary: var(--darkgreen);
+    --secondary: var(--lightgray);
     text-align: center;
     font-family: 'Manrope', sans-serif;
     font-size: 1.3rem;
     margin: 10px;
 }
 
+.darkMode{
+  --primary: var(--darkgreen);
+  --secondary: var(--lightgray);
+}
+
+.lightMode{
+  --primary: var(--mintgreen);
+  --secondary: var(--diffgreen);
+}
 html,
 body,
 * {
@@ -76,16 +90,17 @@ body,
     background-color: #5c974f;
 }
 
-.parentcard {
-    width: 23%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 1.5rem;
-    padding: 3px;
-    background-color: #a3d395;
-    box-shadow: 10px 10px 5px #747450;
+.card {
+  height: 45vh;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+  padding: 3px;
+  background-color: #a3d395;
+  box-shadow: 10px 10px 5px #747450;
  
 }
 @media screen and (max-width: 1180px){
@@ -98,15 +113,20 @@ body,
         width: 100%;
     }
 }
-
-.image {
-    width: 70%;
-    height: 70%;
-    filter: grayscale(85%);
-    transition: all .5s;
-    object-fit: contain;
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--primary);
 }
-.title {
+
+.card-image{
+  max-width: 100%;
+  max-height: 60%;
+}
+.card-title {
     font-size: 2.0rem;
     transition: all .5s;
     font-family: 'Manrope', sans-serif;
@@ -120,7 +140,7 @@ body,
     transition: all .5s;
     font-family: 'Manrope', sans-serif;
 }
-.image:hover {
+.card-image:hover {
     filter: grayscale(0);
     transform: scale(1.4);
 }
@@ -134,104 +154,3 @@ body,
     transform: scale(0.9);
     filter:opacity(40%);
 }
-
-/* ignore whatever this is: */
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
- */
-
-/* button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #3d6d51;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
- */

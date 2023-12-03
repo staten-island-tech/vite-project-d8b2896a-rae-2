@@ -4,6 +4,7 @@ const everything = [
         breed: "loser",
         price: "worthless", 
         personality: "slow",
+        petimage: "https://media.discordapp.net/attachments/1167647678356799520/1180909309148811304/IMG_4359.jpg?ex=657f227f&is=656cad7f&hm=f4e7cedbe60d920a44982657ca6bd344a48fe3972db8a47faf7dee50d392c5ab&=&format=webp&width=463&height=617",
         type: ['special'],
     },
     {
@@ -11,15 +12,15 @@ const everything = [
         breed: "afghan hound",
         price: "$2000", 
         personality: "Aloof",
-        petimage: <img src="https://www.petmiconnect.com/wp-content/uploads/2018/08/ah.jpg" class="image"></img>,
+        petimage: "https://www.petmiconnect.com/wp-content/uploads/2018/08/ah.jpg",
         type: ['dawg'],
     },
     {
         name: "DIPSY",
         breed: "alaskan klee kai",
-        price: "1800", 
+        price: "$1800", 
         personality: "Playful",
-        petimage: <img src="https://wagsandwiggles.com/wp-content/uploads/2023/03/Sandy-1-scaled.jpg" class="image"></img>,
+        petimage: "https://wagsandwiggles.com/wp-content/uploads/2023/03/Sandy-1-scaled.jpg",
         type: ['dawg'],
     },
     {
@@ -27,7 +28,7 @@ const everything = [
         breed: "akita",
         price: "$2300", 
         personality: "Docile",
-        petimage: <img src="https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2023-05/image-text-component-akita-2.jpg?h=2d6b2090&itok=24Vze-U4" class="image"></img>,
+        petimage: "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2023-05/image-text-component-akita-2.jpg?h=2d6b2090&itok=24Vze-U4",
         type: ['dawg'],
     },
     {
@@ -35,15 +36,15 @@ const everything = [
         breed:  "tosa",
         price: "$1950", 
         personality: "Tranquil",
-        petimage: <img src="https://images.saymedia-content.com/.image/t_share/MTc0OTY5MDgwMjAwMTc3NjMy/japanese-tosa-dog-breed.jpg" class="image"></img>,
+        petimage: "https://images.saymedia-content.com/.image/t_share/MTc0OTY5MDgwMjAwMTc3NjMy/japanese-tosa-dog-breed.jpg",
         type: ['dawg'],
     },
     {
         name: "Arby's",
         breed: "persian",
-        price: "1300", 
+        price: "$1300", 
         personality: "Calm",
-        petimage: <img src="https://www.thesprucepets.com/thmb/5OSN_p9hUfPssKsJORQDGnAz_tQ=/1963x0/filters:no_upscale():strip_icc()/GettyImages-181861505-4e63227ed0a14dc9bfe86848ef54caf3.jpg" class="image"></img>,
+        petimage: "https://www.thesprucepets.com/thmb/5OSN_p9hUfPssKsJORQDGnAz_tQ=/1963x0/filters:no_upscale():strip_icc()/GettyImages-181861505-4e63227ed0a14dc9bfe86848ef54caf3.jpg",
         type: ['meow'],
     }, 
     {
@@ -51,7 +52,7 @@ const everything = [
         breed: "ragdoll",
         price: "$650", 
         personality: "Friendly",
-        petimage: <img src="https://cdn.shopify.com/s/files/1/0435/0466/4732/files/pros_and_cons_of_ragdoll_cats_1_600x600.jpg?v=1651120241" class="image"></img>,
+        petimage: "https://cdn.shopify.com/s/files/1/0435/0466/4732/files/pros_and_cons_of_ragdoll_cats_1_600x600.jpg?v=1651120241",
         type: ['meow'],
     },
     {
@@ -59,7 +60,7 @@ const everything = [
         breed: "maine coon",
         price: "$1700", 
         personality: "Goofy",
-        petimage: <img src="https://www.thesprucepets.com/thmb/MzKr6fC-v8W4D4oz2p9wWCwAFms=/2119x0/filters:no_upscale():strip_icc()/GettyImages-1189893683-e0ff70596b3b4f0687ba573e5a671f74.jpg" class="image"></img>,
+        petimage: "https://www.thesprucepets.com/thmb/MzKr6fC-v8W4D4oz2p9wWCwAFms=/2119x0/filters:no_upscale():strip_icc()/GettyImages-1189893683-e0ff70596b3b4f0687ba573e5a671f74.jpg",
         type: ['meow'],
     },
     {
@@ -67,7 +68,7 @@ const everything = [
         breed:"birman",
         price: "$2400", 
         personality: "Affectionate",
-        petimage: <img src="https://geniusvets.s3.amazonaws.com/gv-cat-breeds/Birman-1.jpg" class="image"></img>,
+        petimage: "https://geniusvets.s3.amazonaws.com/gv-cat-breeds/Birman-1.jpg",
         type: ['meow'],
     }, 
     {
@@ -75,7 +76,7 @@ const everything = [
         breed: "siamese",
         price: "$675", 
         personality: "Extroverted",
-        petimage: <img src="https://icatcare.org/app/uploads/2018/10/Siamese.png" class="image"></img>,
+        petimage: "https://icatcare.org/app/uploads/2018/10/Siamese.png",
         type: ['meow'],
     },
     {
@@ -83,7 +84,7 @@ const everything = [
         breed: "parrot",
         price: "$1200", 
         personality: "Cuddly",
-        petimage: <img src="https://parrotjunkie.com/cdn/shop/articles/2.png?v=1686711674&width=1100" class="image"></img>,
+        petimage: "https://parrotjunkie.com/cdn/shop/articles/2.png?v=1686711674&width=1100",
         type: ['chirp'],
     },
     {
@@ -91,7 +92,7 @@ const everything = [
         breed: "cockatiel",
         price: "$275", 
         personality: "Gentle",
-        petimage: <img src="https://animal-world.com/wp-content/uploads/2023/08/grey-cockatiel-opening-its-wings_Jolanta-Beinarovica_Shutterstock.jpg" class="image"></img>,
+        petimage: "https://animal-world.com/wp-content/uploads/2023/08/grey-cockatiel-opening-its-wings_Jolanta-Beinarovica_Shutterstock.jpg",
         type: ['chirp'],
     },
     {
@@ -99,7 +100,7 @@ const everything = [
         breed: "finch",
         price: "$95", 
         personality: "Energetic",
-        petimage: <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Bullfinch_male.jpg" class="image"></img>,
+        petimage: "https://upload.wikimedia.org/wikipedia/commons/d/de/Bullfinch_male.jpg",
         type: ['chirp'],
     }, 
     {
@@ -107,7 +108,7 @@ const everything = [
         breed: "canary",
         price: "$365", 
         personality: "Quiet",
-        petimage: <img src="https://www.singing-wings-aviary.com/wp-content/uploads/2016/09/Gloster-Canary.jpg" class="image"></img>,
+        petimage: "https://www.singing-wings-aviary.com/wp-content/uploads/2016/09/Gloster-Canary.jpg",
         type: ['chirp'],
     },
     {
@@ -115,8 +116,9 @@ const everything = [
         breed: "pair of barbary dove",
         price: "$145", 
         personality: "Tame",
-        petimage: <img src="https://blog.nature.org/wp-content/uploads/2014/02/eurasian-collared-dove.jpg" class="image"></img>,
+        petimage: "https://blog.nature.org/wp-content/uploads/2014/02/eurasian-collared-dove.jpg",
         type: ['chirp'],
     }, 
 ];
+
 export {everything};
