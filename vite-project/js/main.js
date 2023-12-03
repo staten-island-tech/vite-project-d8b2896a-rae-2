@@ -60,6 +60,7 @@ DOMSelectors.light.addEventListener("click", function(event){
   DOMSelectors.body.classList.add("light")
   DOMSelectors.body.classList.add("dark")
 })
+
 function dogs(){
   const doggos = everything.filter((breed)=> breed.type.includes("dawg"))
   makeCards(doggos)
@@ -76,7 +77,7 @@ function birds(){
 
 
 function theme(){
-DOMSelectors.document.querySelector(".themes").addEventListener("click", function(){
+DOMSelectors.document.querySelector("#themes").addEventListener("click", function(){
   if (document.body.classList.contains(".dark")){
       document.body.classList.add(".light")
       document.body.remove(".dark")

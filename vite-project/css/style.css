@@ -104,12 +104,12 @@ body,
  
 }
 @media screen and (max-width: 1180px){
-    .parentcard{
+    .card{
         width: 44%;
     }
 }
 @media screen and (max-width: 844px){
-    .parentcard{
+    .card{
         width: 100%;
     }
 }
@@ -130,7 +130,6 @@ body,
     font-size: 2.0rem;
     transition: all .5s;
     font-family: 'Manrope', sans-serif;
-
 }
 .card-price{
     background-color: #a3d395; 
