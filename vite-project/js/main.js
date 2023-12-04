@@ -1,18 +1,6 @@
+
 import{everything} from "./everything";
-import "../style.css";
-
-const DOMSelectors = {
-  container: document.querySelector("#container"),
-  cardList: document.querySelector(".cardList"),
-  body: document.querySelector(".body"),
-  everything: document.querySelector(".everything"),
-  dark: document.querySelector(".dark"),
-  light: document.querySelector(".light"),
-  dawg: document.querySelector(".dawg"),
-  meow: document.querySelector(".meow"),
-  chirp: document.querySelector(".chirp"),
-
-};
+import { DOMSelectors } from "./dom";
 
 function makeCards(arr){
   DOMSelectors.cardList.innerHTML = "";
@@ -21,7 +9,7 @@ function makeCards(arr){
     newObject.innerHTML = 
     `
     <h2 class="card-title>${pet.name}</h2>
-    <img src="${pet.petimage}" alt="pic" class="card-img">
+    <img src="${pet.petimage}" alt="picture" class="card-img">
     <h3 class="card-price">${pet.price}</h3>
     `
     newObject.classList.add("card")
@@ -29,6 +17,18 @@ function makeCards(arr){
   })};
 
 makeCards(everything)
+
+DOMSelectors.darkMode.addEventListener("click", function(event){
+  event.preventDefault()
+  DOMSelectors.body.classList.add("dark")
+  DOMSelectors.body.classList.remove("light")
+})
+
+DOMSelectors.lightMode.addEventListener("click", function(event){
+  event.preventDefault()
+  DOMSelectors.body.classList.add("light")
+  DOMSelectors.body.classList.remove("dark")
+})
 
 DOMSelectors.dawg.addEventListener("click", function(event){
   event.preventDefault()
@@ -50,17 +50,6 @@ DOMSelectors.everything.addEventListener("click", function(event){
   makeCards(everything)
 });
 
-DOMSelectors.dark.addEventListener("click", function(event){
-  event.preventDefault()
-  DOMSelectors.body.classList.add("light")
-  DOMSelectors.body.classList.add("dark")
-})
-DOMSelectors.light.addEventListener("click", function(event){
-  event.preventDefault()
-  DOMSelectors.body.classList.add("light")
-  DOMSelectors.body.classList.add("dark")
-})
-
 function dogs(){
   const doggos = everything.filter((breed)=> breed.type.includes("dawg"))
   makeCards(doggos)
@@ -74,18 +63,3 @@ function birds(){
   const chirpers = everything.filter((breed)=> breed.type.includes("chirp"))
   makeCards(chirpers)
 }
-
-
-function theme(){
-DOMSelectors.document.querySelector("#themes").addEventListener("click", function(){
-  if (document.body.classList.contains(".dark")){
-      document.body.classList.add(".light")
-      document.body.remove(".dark")
-  } else{
-      document.body.classList.add(".dark")
-      document.body.classList.remove(".light")
-  }
-})
-}
-
-theme()

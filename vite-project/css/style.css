@@ -14,7 +14,7 @@ body{
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.light{
+.lightButton{
     --primary: var(--mintgreen);
     --secondary: var(--diffgreen);
     text-align: center;
@@ -22,7 +22,7 @@ body{
     font-size: 1.3rem;
     margin: 10px;
 }
-.dark{
+.darkButton{
     --primary: var(--darkgreen);
     --secondary: var(--lightgray);
     text-align: center;
@@ -31,12 +31,12 @@ body{
     margin: 10px;
 }
 
-.darkMode{
+.dark{
   --primary: var(--darkgreen);
   --secondary: var(--lightgray);
 }
 
-.lightMode{
+.light{
   --primary: var(--mintgreen);
   --secondary: var(--diffgreen);
 }
@@ -122,7 +122,7 @@ body,
   background-color: var(--primary);
 }
 
-.card-image{
+.card-imag{
   max-width: 100%;
   max-height: 60%;
 }
@@ -138,10 +138,6 @@ body,
     text-align: center;
     transition: all .5s;
     font-family: 'Manrope', sans-serif;
-}
-.card-image:hover {
-    filter: grayscale(0);
-    transform: scale(1.4);
 }
 
 .card-price:hover {
