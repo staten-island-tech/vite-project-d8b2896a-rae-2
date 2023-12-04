@@ -8,7 +8,7 @@ function makeCards(arr){
     const newObject = document.createElement("div");
     newObject.innerHTML = 
     `
-    <h2 class="card-title>${pet.name}</h2>
+    <h2 class="card-title">${pet.name}</h2>
     <img src="${pet.petimage}" alt="picture" class="card-img">
     <h3 class="card-price">${pet.price}</h3>
     `
