@@ -113,7 +113,7 @@ const everything = [
     },
     {
         name: "Nintendo DS and Nintendo Switch",
-        breed: "pair of barbary dove",
+        breed: "pair of barbary doves",
         price: "$145", 
         personality: "Tame",
         petimage: "https://blog.nature.org/wp-content/uploads/2014/02/eurasian-collared-dove.jpg",

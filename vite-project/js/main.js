@@ -10,6 +10,7 @@ function makeCards(arr){
     `
     <h2 class="card-title">${pet.name}</h2>
     <img src="${pet.petimage}" alt="picture" class="card-img">
+    <h3 class="card-price">${pet.breed}</h3>
     <h3 class="card-price">${pet.price}</h3>
     `
     newObject.classList.add("card")
