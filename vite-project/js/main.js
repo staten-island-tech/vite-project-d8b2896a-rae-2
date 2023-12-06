@@ -27,7 +27,7 @@ makeCards(everything)
     //create new array by filtering items by category (the button clicked)
     let arr = everything.filter((pet)=>pet.type.includes(category))
     //remove all old cards
-    DOMSelectors.parent.innerHTML = ""
+    DOMSelectors.cardList.innerHTML = ""
     //passing in new filtered array to put cards on screen
     makeCards(arr)
   }))
