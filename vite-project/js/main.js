@@ -18,6 +18,22 @@ function makeCards(arr){
 
 makeCards(everything)
 
+function btn(){
+  //for each button we add click event handler
+  DOMSelectors.buttons.forEach((btn)=> btn.addEventListener("click", function(){
+    //get button text to be used later
+    let category = btn.textContent.toLowerCase()
+    //create new array by filtering items by category (the button clicked)
+    let newArr = everything.filter((pet)=>pet.type.includes(category))
+    //remove all old cards
+    DOMSelectors.parent.innerHTML = ""
+    //passing in new filtered array to put cards on screen
+    populate(newArr)
+  }))
+}
+btn()
+
+/* 
 DOMSelectors.darkMode.addEventListener("click", function(event){
   event.preventDefault()
   DOMSelectors.body.classList.add("dark")
@@ -62,4 +78,5 @@ function cats(){
 function birds(){
   const chirpers = everything.filter((breed)=> breed.type.includes("chirp"))
   makeCards(chirpers)
-}
+} */
+
